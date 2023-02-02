@@ -1,0 +1,78 @@
+Create database workshop;
+
+USE workshop;
+
+/****** Object:  Table [dbo].[Event]    Script Date: 02-02-2023 19:41:56 ******/
+
+CREATE TABLE Event(
+	 eventId   int  NOT NULL,
+	 name   varchar (45) NOT NULL,
+	 startDate   datetime  NOT NULL,
+	 endDate   datetime  NOT NULL,
+	 test   varchar (50) NULL,
+PRIMARY KEY (eventId)); 
+ 
+
+ 
+CREATE TABLE   GameType (
+	 gameTypeId   int  NOT NULL,
+	 gameName   varchar (45) NOT NULL,
+	 noOfPlayers   int  NOT NULL,
+PRIMARY KEY (gameTypeId));
+ 
+ 
+CREATE TABLE  Matches (
+	 matchId   int  NOT NULL,
+	 date   datetime  NOT NULL,
+	 firstTeamId   int  NOT NULL,
+	 secondTeamId   int  NOT NULL,
+	 duration   int  NOT NULL,
+PRIMARY KEY(matchId));
+ 
+CREATE TABLE   Occasion (
+	 id   int  NOT NULL,
+	 name   varchar (45) NOT NULL,
+PRIMARY KEY(id ));
+ 
+CREATE TABLE   Player (
+	 playerId   int  NOT NULL,
+	 playerName   varchar (45) NOT NULL,
+PRIMARY KEY(playerId));
+
+ 
+CREATE TABLE   Team (
+	 teamId   int  NOT NULL,
+	 name   varchar (45) NOT NULL,
+	 eventId   int  NOT NULL,
+	 gameId   int  NOT NULL,
+PRIMARY KEY(teamId));
+ 
+CREATE TABLE   Team_Player (
+	 id   int  NOT NULL,
+	 playerId   int  NOT NULL,
+	 teamId   int  NOT NULL,
+PRIMARY KEY(id));
+ 
+ALTER TABLE Matches
+ADD FOREIGN KEY (firstTeamId) REFERENCES  Team  ( teamId );
+
+ALTER TABLE Matches
+ADD FOREIGN KEY (firstTeamId) REFERENCES  Team  ( teamId );
+
+ALTER TABLE Matches
+ADD FOREIGN KEY (secondTeamId) REFERENCES  Team  ( teamId );
+ 
+ALTER TABLE Matches
+ADD FOREIGN KEY (secondTeamId) REFERENCES  Team  ( teamId );
+
+ALTER TABLE Team
+ADD FOREIGN KEY (eventId) REFERENCES  Event  ( eventId );
+
+ALTER TABLE Team
+ADD FOREIGN KEY (gameId) REFERENCES  GameType  ( gameTypeId );
+
+ALTER TABLE Team_Player
+ADD FOREIGN KEY (playerId) REFERENCES  Player  ( playerId );
+
+ALTER TABLE Team_Player
+ADD FOREIGN KEY (teamId) REFERENCES  Team  ( teamId );

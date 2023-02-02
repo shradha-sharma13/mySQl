@@ -1,0 +1,93 @@
+{
+    "gameType": 2, 
+    "players": [
+        {
+            "playerId" : 1,
+            "name" : "A"
+        },
+        {
+            "playerId" :2,
+            "name" : "B"
+        },
+        {
+            "playerId" : 3,
+            "name" : "C"
+        },
+        {
+            "playerId" : 4,
+            "name" : "D"
+        },
+        {
+            "playerId" : 5,
+            "name" : "E"
+        },
+        {
+            "playerId" : 6,
+            "name" : "F"
+        },
+        {
+            "playerId" : 7,
+            "name" : "G"
+        },
+        {
+            "playerId" : 8,
+            "name" : "H"
+        },
+        {
+            "playerId" : 9,
+            "name" : "I"
+        },
+        {
+            "playerId" : 10,
+            "name" : "J"
+        },
+        {
+            "playerId" : 11,
+            "name" : "K"
+        },
+        {
+            "playerId" : 1,
+            "name" : "A"
+        },
+        {
+            "playerId" :2,
+            "name" : "B"
+        },
+        {
+            "playerId" : 3,
+            "name" : "C"
+        },
+        {
+            "playerId" : 4,
+            "name" : "D"
+        },
+        {
+            "playerId" : 5,
+            "name" : "E"
+        },
+        {
+            "playerId" : 6,
+            "name" : "F"
+        },
+        {
+            "playerId" : 7,
+            "name" : "G"
+        },
+        {
+            "playerId" : 8,
+            "name" : "H"
+        },
+        {
+            "playerId" : 9,
+            "name" : "I"
+        },
+        {
+            "playerId" : 10,
+            "name" : "J"
+        },
+        {
+            "playerId" : 11,
+            "name" : "K"
+        }
+    ]
+   }

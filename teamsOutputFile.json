@@ -1,0 +1,170 @@
+{
+    "teams": [
+        {
+            "id": 0,
+            "name": "Team - A",
+            "gameType": 2,
+            "players": [
+                {
+                    "playerId": 1,
+                    "name": "A"
+                },
+                {
+                    "playerId": 2,
+                    "name": "B"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "Team - B",
+            "gameType": 2,
+            "players": [
+                {
+                    "playerId": 3,
+                    "name": "C"
+                },
+                {
+                    "playerId": 4,
+                    "name": "D"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Team - C",
+            "gameType": 2,
+            "players": [
+                {
+                    "playerId": 5,
+                    "name": "E"
+                },
+                {
+                    "playerId": 6,
+                    "name": "F"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Team - D",
+            "gameType": 2,
+            "players": [
+                {
+                    "playerId": 7,
+                    "name": "G"
+                },
+                {
+                    "playerId": 8,
+                    "name": "H"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Team - E",
+            "gameType": 2,
+            "players": [
+                {
+                    "playerId": 9,
+                    "name": "I"
+                },
+                {
+                    "playerId": 10,
+                    "name": "J"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Team - F",
+            "gameType": 2,
+            "players": [
+                {
+                    "playerId": 11,
+                    "name": "K"
+                },
+                {
+                    "playerId": 1,
+                    "name": "A"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Team - G",
+            "gameType": 2,
+            "players": [
+                {
+                    "playerId": 2,
+                    "name": "B"
+                },
+                {
+                    "playerId": 3,
+                    "name": "C"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Team - H",
+            "gameType": 2,
+            "players": [
+                {
+                    "playerId": 4,
+                    "name": "D"
+                },
+                {
+                    "playerId": 5,
+                    "name": "E"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Team - I",
+            "gameType": 2,
+            "players": [
+                {
+                    "playerId": 6,
+                    "name": "F"
+                },
+                {
+                    "playerId": 7,
+                    "name": "G"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Team - J",
+            "gameType": 2,
+            "players": [
+                {
+                    "playerId": 8,
+                    "name": "H"
+                },
+                {
+                    "playerId": 9,
+                    "name": "I"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Team - K",
+            "gameType": 2,
+            "players": [
+                {
+                    "playerId": 10,
+                    "name": "J"
+                },
+                {
+                    "playerId": 11,
+                    "name": "K"
+                }
+            ]
+        }
+    ],
+    "total": 11
+}
